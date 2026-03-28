@@ -1,0 +1,1 @@
+docker exec -it stack-php-1 composer %*

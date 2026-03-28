@@ -1,0 +1,1 @@
+docker exec -it stack-php-1 php /var/www/projects/%1/artisan %2 %3 %4 %5
