@@ -11,7 +11,7 @@ services:
       - php
 
   php:
-    build: .
+    image: sysoftworks/php-dev:1.0
     volumes:
       - ../projects:/var/www/projects
 
