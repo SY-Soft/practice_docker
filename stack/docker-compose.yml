@@ -11,7 +11,9 @@ services:
       - php
 
   php:
-    image: sysoftworks/php-dev:1.0
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
       - ../projects:/var/www/projects
 
