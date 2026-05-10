@@ -7,3 +7,10 @@
 /Read_me3.txt
 /docker_test1.sql.gz
 /lrvl1.sql.gz
+projects/*/public/vendor/
+projects/*/public/web/core/
+projects/*/public/web/modules/contrib/
+projects/*/public/web/themes/contrib/
+
+projects/*/public/web/sites/default/files/
+projects/*/public/web/sites/default/settings.php
