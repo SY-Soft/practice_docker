@@ -1,4 +1,4 @@
-FROM php:8.4-fpm
+FROM php:8.3-fpm
 
 RUN apt-get update && apt-get install -y \
     git \
@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     zip \
     libzip-dev \
     libonig-dev \
+    libicu-dev \
     libjpeg62-turbo-dev \
     libfreetype6-dev \
     libwebp-dev \
@@ -19,14 +20,15 @@ RUN docker-php-ext-configure gd \
     --with-jpeg \
     --with-webp
 
-RUN docker-php-ext-install \
+RUN docker-php-ext-install -j$(nproc) \
     pdo \
     pdo_mysql \
     zip \
     mbstring \
     bcmath \
+    intl \
     gd
 
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www
