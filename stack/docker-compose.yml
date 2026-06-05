@@ -16,6 +16,8 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ../projects:/var/www/projects
+      - laravel_cache:/var/cache/laravel
+
 
   mysql:
     image: mysql:8.0
@@ -32,3 +34,6 @@ services:
       PMA_HOST: mysql
     ports:
       - "8080:80"
+
+volumes:
+  laravel_cache:
