@@ -15,6 +15,9 @@ RUN apt-get update && apt-get install -y \
     zlib1g-dev \
     && rm -rf /var/lib/apt/lists/*
 
+RUN pecl install redis \
+    && docker-php-ext-enable redis \
+
 RUN docker-php-ext-configure gd \
     --with-freetype \
     --with-jpeg \
