@@ -6,19 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="27a96a60-7829-4c97-b0bd-73da34c47ad2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lrvl1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../lrvl1/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lrvl1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../lrvl1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lrvl1/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lrvl1/app/Http/Controllers/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lrvl1/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lrvl1/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lrvl1/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lrvl1/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lrvl1/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lrvl1/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lrvl1/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lrvl1/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lrvl1/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../lrvl1/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lrvl1/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lrvl1/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lrvl1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lrvl1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lrvl1/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lrvl1/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lrvl1/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lrvl1/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lrvl1/resources/views/welcome.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lrvl1/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lrvl1/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +83,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/public" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/public/vendor/symfony/polyfill-php83" />
       <path value="$PROJECT_DIR$/public/vendor/symfony/polyfill-mbstring" />
@@ -174,7 +164,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "J:/projects_docker/projects/lrvl1",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "J:/projects_docker/projects/gl",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -213,6 +204,8 @@
       <workItem from="1778398057761" duration="3216000" />
       <workItem from="1778411078872" duration="80000" />
       <workItem from="1778420751124" duration="128000" />
+      <workItem from="1778700166403" duration="227000" />
+      <workItem from="1778748592509" duration="688000" />
     </task>
     <servers />
   </component>
